@@ -3,7 +3,7 @@
 
 a {color:#0080ff;text-decoration:none}
 a:hover {text-decoration:underline}
-body {font-family:'Nunito','Arial','Helvetica';font-size:15px;color:#a0a0a0;margin:0px}
+body {font-family:'Nunito','Arial','Helvetica';background-color:#f0f0f0;font-size:15px;color:#a0a0a0;margin:0px}
 
 h1,h2,h3,h4,h5,h6 {font-weight:normal;color:#406080}
 
