@@ -5,7 +5,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div style="background-color:#406080;background:linear-gradient(#6080a0,#204060,45deg)">
+    <div style="background-color:#406080;background:linear-gradient(45deg,#6080a0,#204060)">
       <div class="contentzone">
         <h1 align="center" style="color:#ffffff">Hello world!</h1>
         <p align="center" style="color:#ffffff">Welcome to my first Noroff website.</p>
@@ -14,7 +14,26 @@
     <div class="contentzone">
       <h2>Web Security</h2>
       <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-      <p id="web-security-answer">[Answer here]</p>
+      <p id="web-security-answer">
+        I would probably start with making sure that the client has a secure and well-known webhost for his/her website.
+        Then i would start to go through the code and see if i can find some obvious security risks. Alternatively, i could
+        run the clients page through the website scanner that was mentioned in the Web Security module in this course.<br><br>
+
+        <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">Go to the website scanner</a><br><br>
+
+        Depending on the complexity of the clients website (if it has a logon page, webshop, admin console etc.) i would also check how the logon process and authentication are set up.
+        In this course we learned that it <i>can</i> be done manually, but that often requires some insight in both backend programming and security knowledge. Perhaps add a action the
+        user has to answer to in order to get logged in, in addition to the regular username and password fields. For example, Google has the images poppin up where you need to click
+        on all images containing a certain object. That's a way to make the login progress more secure.<br><br>
+
+        Okta and OneLogin were also mentioned as frameworks that can be used. Noroff uses OneLogin, and they use Okta in my daily job. So i guess i am familiar with both.<br><br>
+        A last thing to think about when authorizing a user login, is to enable some way of user timeout, so that the user get's automatically logged out after a while.
+        Many people tend to not hit the logout button when they have visited a site that requires logon.<br><br>
+
+        As a last point, also be aware when using cross-site scripts. Using a font from Google (like in this example), Material Icons, or even some JavaScript frameworks
+        should be fine, but try to keep most of the scripts and resources on your own domain.
+
+      </p>
     </div>
   </body>
 </html>
