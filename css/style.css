@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700&display=swap');
+
+a {color:#ff4000;text-decoration:none}
+a:hover {text-decoration:underline}
+body {font-family:'Anek Devanagari','Arial','Helvetica';font-size:13px;color:#a0a0a0}
+
+h1,h2,h3,h4,h5,h6 {font-weight:normal;color:#405060}
