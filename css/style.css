@@ -2,8 +2,8 @@
 
 a {color:#ff4000;text-decoration:none}
 a:hover {text-decoration:underline}
-body {font-family:'Anek Devanagari','Arial','Helvetica';font-size:13px;color:#a0a0a0}
+body {font-family:'Anek Devanagari','Arial','Helvetica';font-size:13px;color:#a0a0a0;margin:0px}
 
-h1,h2,h3,h4,h5,h6 {font-weight:normal;color:#405060}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;color:#406080}
 
-.contentzone {margin:0 auto;padding:20px;max-width:1000px;box-sizing:border-box}
+.contentzone {margin:0 auto;padding:20px;max-width:1000px;box-sizing:border-box;padding:20px}
