@@ -20,22 +20,24 @@
       <h3><p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p></h3><br>
 
       <p id="web-security-answer">
-        I would probably start with making sure that the client has a secure and well-known webhost for his/her website.
-        Then i would start to go through the code and see if i can find some obvious security risks. Alternatively, i could
-        run the clients page through the website scanner that was mentioned in the Web Security module in this course.
+        I would start with making sure that the client has a secure and well-known web host for its website using https.
+        Then I would click through the page (and perhaps also look at some of the code) to see if I can find some obvious security risks.
+        It would also be useful to run the clients page through the website scanner that was mentioned in the Web Security module in this course.
         <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">Go to the website scanner</a><br><br>
 
-        If the clients website has a logon process (for example a admin console, webshop etc.) i would check how the authentication are set up.
-        In this course we learned that it <i>can</i> be done manually, but that often requires some knowledge in back-end programming and IT security aspects. Adding a extra action the
-        user has to answer to in order to get logged in is popular. Like for example; Google has the images popping up where you need to click
-        on all images containing a certain object. That's a way to make the login progress more secure.<br><br>
+        If the site has a logon process (admin console, webshop etc.) I would check how it authenticates.
+        The logon process can be programmed manually, but that often requires some knowledge in back-end programming and IT security aspects.
+        At least it would be good to add the Google framework that has the images popping up where you need to click on all that contains a
+        specific object.<br><br>
 
-        Okta and OneLogin were also mentioned as frameworks that can be used. Noroff uses OneLogin, and they use Okta in my daily job. So i guess i am familiar with both.<br><br>
-        A last thing to think about when authorizing a user login, is to enable some way of user timeout, so that the user get's automatically logged out after a while.
-        Many people tend to not hit the logout button when they have visited a site that requires logon.<br><br>
+        There are two-factor authentication providers available, such as Okta and OneLogin. Noroff uses OneLogin, and we use Okta in my daily job.
+        They both have a cell phone app, in which you need to confirm that it's really you that is logging in.<br><br>
 
-        As a last point, also be aware when using cross-site scripts. Using a font from Google (like in this example), Material Icons, or even some JavaScript frameworks
-        should be fine, but try to keep most of the scripts and resources on your own domain.<br><br>
+        It is also recommended to make the session time out after a certain time.
+        People often forget to hit the logout button after visiting a site that requires login.<br><br>
+
+        Be aware when using cross-site scripts. Using fonts/icons from Google (like here) should be safe,
+        or even some JavaScript frameworks. But try to keep most of the resources on your own domain.<br><br>
 
         <i><a href="mailto:frode_aabak@hotmail.com">Frode Aabak</a>, &copy; 2022</i>
 
